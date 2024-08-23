@@ -9,17 +9,33 @@
         h2{
             background-color: blue;
         }
+        p{
+            background-color: beige;
+            color:brown
+        }
+
+        #paragrafoId {
+            color: blue;
+        }
+        
+        .corAmarelo{
+            color:yellow;
+        }
     </style>
     <!--importar de alguma forma-->
     <link rel="stylesheet" href="style.css">
 </head>
+
+<!--abaixo está o corpo do texto-->
 <body>
     <h1 style="background-color: violet;">CSS Inline</h1>
     <h2>CSS Interno</h2>
     <h3>CSS Externo</h2>
 
     <p>Seletor HTML</p>
-    <p>Seletor ID</p>
-    <p>Seletor Classe</p>
+    <p id="paragrafoId">Seletor ID</p> <!--quando for elemento único-->
+    <p class="corAmarelo">Seletor Classe</p>
+
+    <h1 class="corAmarelo"> TEXTO EM AMARELO LEGAL</h1> <!-- o seletor classe pode ser reutilizado, diferente do seletor ID-->
 </body>
 </html>
